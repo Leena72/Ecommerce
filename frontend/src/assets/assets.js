@@ -4,6 +4,8 @@ import pic3 from "./pic3.jpeg";
 import pic4 from "./pic4.jpeg";
 import pic5 from "./pic5.jpeg";
 import logo from "./logo.png";
+import search from "./search.png";
+import user from "./user.png";
 
 
 export const assets = {
@@ -12,7 +14,9 @@ export const assets = {
   pic3,
   pic4,
   pic5,
-  logo
+  logo,
+  search,
+  user
 };
 
 export const products = [
