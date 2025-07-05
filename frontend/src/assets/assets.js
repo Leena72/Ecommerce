@@ -3,6 +3,8 @@ import pic2 from "./pic2.jpeg";
 import pic3 from "./pic3.jpeg";
 import pic4 from "./pic4.jpeg";
 import pic5 from "./pic5.jpeg";
+import logo from "./logo.png";
+
 
 export const assets = {
   pic1,
@@ -10,6 +12,7 @@ export const assets = {
   pic3,
   pic4,
   pic5,
+  logo
 };
 
 export const products = [
