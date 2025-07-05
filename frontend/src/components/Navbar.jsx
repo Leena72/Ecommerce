@@ -1,6 +1,6 @@
 import React from "react";
 import { assets } from "../assets/assets";
-import { NavLink } from "react-router-dom";
+import { Link ,NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -37,6 +37,10 @@ const Navbar = () => {
             </div>
           </div>
         </div>
+        <Link to='/cart' className='relative'>
+        <img src={assets.bag} className="w-5 min-w-5" alt=''/>
+        <p className="absolute right-[-8px] bottom-[-8px] w-4 text-center leading-4 bg-black text-white aspect-square rounded-full text-[-10px]">10</p>
+        </Link>
       </div>
     </div>
   );

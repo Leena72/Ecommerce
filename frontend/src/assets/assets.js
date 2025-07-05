@@ -6,7 +6,7 @@ import pic5 from "./pic5.jpeg";
 import logo from "./logo.png";
 import search from "./search.png";
 import user from "./user.png";
-
+import bag from "./bag.png";
 
 export const assets = {
   pic1,
@@ -16,7 +16,8 @@ export const assets = {
   pic5,
   logo,
   search,
-  user
+  user,
+  bag
 };
 
 export const products = [
